@@ -16,6 +16,10 @@ stop. Do not generate violations for a project the pattern explicitly excludes.
 
 ## The seven checks, in severity order
 
+If the project already has a boundary check configured (a `pfc-verify` script,
+`eslint-plugin-boundaries` or `@nx/enforce-module-boundaries`), run it first: it
+covers checks 1 and 2 mechanically, and part of 3 by heuristic.
+
 ### 1. Feature imports another feature — CRITICAL
 
 ```bash

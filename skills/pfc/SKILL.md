@@ -139,4 +139,5 @@ this skill in the repository it was installed from:
 - `docs/framework-translation.md` — React, Vue and Svelte equivalents
 
 For auditing existing code against these rules, use the `pfc-review` skill. For
-extracting a feature out of a monolith, use `pfc-migrate`.
+extracting a feature out of a monolith, use `pfc-migrate`. For making the build
+fail when a boundary breaks, use `pfc-enforce`.
