@@ -95,6 +95,7 @@ docs/framework-translation.md  React / Vue / Svelte mapping — an adaptation
 skills/pfc/                  Build the PFC way
 skills/pfc-review/           Audit code against PFC
 skills/pfc-migrate/          Extract one feature from a monolith
+skills/pfc-enforce/          Make the build fail on a broken boundary — derived
 templates/feature/           Annotated feature scaffold
 templates/page/              Annotated page scaffold
 ```

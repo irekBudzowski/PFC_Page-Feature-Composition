@@ -105,3 +105,7 @@ grep -rn "from '\.\./\.\./features/" src/app/features/ && exit 1
 The rules are simple enough that automated enforcement is cheap, and valuable
 enough that it is worth doing before the first violation rather than after the
 twentieth.
+
+The `pfc-enforce` agent skill in this repository sets either of these up, or
+copies in `skills/pfc-enforce/pfc-verify.mjs`, a zero-dependency Node script
+that checks the same rules, and wires it so the build fails.

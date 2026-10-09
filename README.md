@@ -14,6 +14,9 @@ sensible way to organise frontend apps that actually scales.
 Features own business capabilities.  Pages compose features.  That is it.
 ```
 
+An animated, illustrated guide to the pattern lives at
+[nullhands.com/pfc](https://nullhands.com/pfc).
+
 ---
 
 ## The one idea
@@ -132,6 +135,13 @@ annotated with what goes where and what must never be exported.
 
 ### For your coding agents
 
+PFC suits coding agents for the same reasons it suits new team members. A
+feature folder is the whole capability, so the context an agent needs is bounded
+by one directory. There is one answer to "where does this go", so it does not
+have to guess. The import rules are mechanical, so a broken boundary can be a
+failing build rather than a matter of review taste. And because pages see only a
+feature's barrel, a change inside a feature has a known blast radius.
+
 This repo ships as installable agent skills. Run this in any project and your
 agent knows PFC without you explaining it again:
 
@@ -139,13 +149,14 @@ agent knows PFC without you explaining it again:
 npx skills add irekBudzowski/PFC_Page-Feature-Composition
 ```
 
-Three skills are installed:
+Four skills are installed:
 
 | Skill | Does |
 |---|---|
 | `pfc` | Builds features and pages the PFC way; enforces the dependency rules |
 | `pfc-review` | Audits existing code against PFC and reports violations |
 | `pfc-migrate` | Plans and executes extracting one feature out of a monolith |
+| `pfc-enforce` | Sets up a build-failing boundary check — ESLint, Nx or a zero-dependency script |
 
 There is also an [`AGENTS.md`](AGENTS.md) at the root, which agents that read
 that convention pick up automatically. Point any agent at this repository and it
