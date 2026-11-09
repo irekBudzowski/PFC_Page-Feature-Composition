@@ -208,14 +208,14 @@ concept across. Only the syntax is Angular.
 ## Origin
 
 Written by **Ireneusz Budzowski** and first published as a five part series on
-[better-frontend.dev](https://better-frontend.dev), 13 November 2025, after more
+[bitcast.dev](https://www.bitcast.dev), 13 November 2025, after more
 than a year of using PFC in production on enterprise applications.
 
-- PFC #1 — [The Philosophy](https://better-frontend.dev/pfc-1)
-- PFC #2 — [Pages as Orchestrators](https://better-frontend.dev/pfc-2)
-- PFC #3 — [Building Features](https://better-frontend.dev/pfc-3)
-- PFC #4 — [Migration Strategies](https://better-frontend.dev/pfc-4)
-- PFC #5 — [Real-World Examples](https://better-frontend.dev/pfc-5)
+- PFC #1 — [The Philosophy](https://www.bitcast.dev/p/pfc-1)
+- PFC #2 — [Pages as Orchestrators](https://www.bitcast.dev/p/pfc-2)
+- PFC #3 — [Building Features](https://www.bitcast.dev/p/pfc-3)
+- PFC #4 — [Migration Strategies](https://www.bitcast.dev/p/pfc-4)
+- PFC #5 — [Real-World Examples](https://www.bitcast.dev/p/pfc-5)
 
 This repository is the canonical, offline-readable version of that series, plus
 the templates and agent skills that make it usable rather than only readable.
